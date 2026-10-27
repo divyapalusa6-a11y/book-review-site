@@ -4,42 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Review</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Book Review</h1>
-    </header>
+    <div class="page-shell">
+        <header class="site-header">
+            <div class="brand-block">
+                <p class="eyebrow">Curated reads</p>
+                <h1>Book Review</h1>
+            </div>
 
-    <nav>
-        <a href="eloquent-ruby.html" target="_blank">Reviews</a>
-        <a href="contact.html" target="_blank">Contact us</a>
-    </nav>
+            <nav class="main-nav" aria-label="Main navigation">
+                <a href="eloquent-ruby.html" target="_blank">Reviews</a>
+                <a href="contact.html" target="_blank">Contact us</a>
+            </nav>
+        </header>
 
-    <main>
-        <ul>
-            <li>
-                <img src="images/cover-clean_ruby.jpg" alt="#"/>
-            </li>
-            <li>
-                <img src="images/cover-confident_ruby.jpg" alt="#"/>
-            </li>
-            <li>
-                <a href="eloquent-ruby.html" target="_blank">
-                    <img src="images/cover-eloquent_ruby.jpg" alt="#"/>
-                </a>
-            </li>
-            <li>
-                <img src="images/cover-ruby_science.jpg" alt="#"/>
-            </li>
-            <li>
-                <img src="images/cover-well_grounded_rubyist.jpg" alt="#"/>
-            </li>
-        </ul>
-    </main>
+        <main class="book-showcase">
+            <h2>Featured Reviews</h2>
+            <ul class="book-grid">
+                <li class="book-card">
+                    <img src="images/cover-clean_ruby.jpg" alt="Clean Ruby book cover">
+                </li>
+                <li class="book-card">
+                    <img src="images/cover-confident_ruby.jpg" alt="Confident Ruby book cover">
+                </li>
+                <li class="book-card featured">
+                    <a href="eloquent-ruby.html" target="_blank">
+                        <img src="images/cover-eloquent_ruby.jpg" alt="Eloquent Ruby book cover">
+                    </a>
+                </li>
+                <li class="book-card">
+                    <img src="images/cover-ruby_science.jpg" alt="Ruby Science book cover">
+                </li>
+                <li class="book-card">
+                    <img src="images/cover-well_grounded_rubyist.jpg" alt="The Well-Grounded Rubyist book cover">
+                </li>
+            </ul>
+        </main>
 
-    <footer>
-        <p>&copy; 2026 Divya Palusa </p>
-    </footer>
-    
+        <footer class="site-footer">
+            <p>&copy; 2026 Divya Palusa</p>
+        </footer>
+    </div>
 </body>
 </html>
