@@ -4,40 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header>
-        <h1>Contact</h1>
+<body class="contact-page">
+    <header class="page-header">
+        <div class="header-content">
+            <p class="eyebrow">Get in touch</p>
+            <h1>Contact</h1>
+        </div>
+        <nav class="secondary-nav" aria-label="Site navigation">
+            <a href="index.html">Home</a>
+        </nav>
     </header>
-    <nav>
-        <a href="#" target="_blank"></a>
-    </nav>
-    <main>
-        <img src="images/site-maintainer.png" alt="picture of site maintainer"/>
-        <p>
-            We value your feedback and invite you to share your thoughts to help us improve! 
-            Whether you have suggestions, questions, or ideas, feel free to reach out via email, 
-            Twitter, or Facebook. Your input is important to us as we work to create the best 
-            possible experience for our community.
-        </p>
-        <ul>
-            <li>
-                <a href="#">
-                    <img src="images/logo-facebook.png" alt="Facebook logo"/>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="images/logo-twitter.png" alt="Twitter logo"/>
-                </a>
-            </li>
-            <li>
-                <a href="#">Email</a>
-            </li>
-        </ul>
+
+    <main class="contact-main">
+        <div class="contact-card">
+            <img src="images/site-maintainer.png" alt="Picture of site maintainer" class="maintainer-photo"/>
+            <div class="contact-copy">
+                <p>
+                    We value your feedback and invite you to share your thoughts to help us improve!
+                    Whether you have suggestions, questions, or ideas, feel free to reach out via email,
+                    Twitter, or Facebook. Your input is important to us as we work to create the best
+                    possible experience for our community.
+                </p>
+
+                <ul class="social-links" aria-label="Social links">
+                    <li>
+                        <a href="#" aria-label="Facebook">
+                            <img src="images/logo-facebook.png" alt="Facebook logo" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="Twitter">
+                            <img src="images/logo-twitter.png" alt="Twitter logo" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="email-link">Email</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </main>
+
     <footer>
-        <p>&copy; 2026 Divya Palusa </p>
+        <p>&copy; 2026 Divya Palusa</p>
     </footer>
 </body>
 </html>
