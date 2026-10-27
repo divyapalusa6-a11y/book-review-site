@@ -1,0 +1,19 @@
+.contact-main {
+    text-align: center;
+}
+
+.contact-card {
+    text-align: left;
+}
+
+.contact-copy {
+    text-align: center;
+}
+
+.maintainer-photo {
+    border-radius: 20px;
+}
+
+.social-links {
+    justify-content: center;
+}
